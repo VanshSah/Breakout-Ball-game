@@ -1,5 +1,9 @@
-
-package com.mycompany.brick;
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package GAME;
 
 import javax.swing.JPanel;
 import javax.swing.Timer;
@@ -13,6 +17,10 @@ import java.awt.event.ActionListener;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 
+/**
+ *
+ * @author chinm
+ */
 public class GamePlay extends JPanel implements KeyListener, ActionListener {
     
      private boolean play = false;
